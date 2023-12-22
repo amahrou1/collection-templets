@@ -25,6 +25,8 @@ requests:
       - "{{BaseURL}}/wp-config.php.back"
       - "{{BaseURL}}/wp-config.php_archive"
       - "{{BaseURL}}/wp-config.php_date"
+      - "{{BaseURL}}/common/config.php.new"
+      - "{{BaseURL}}/config.php.new"
    
     matchers-condition: and
     matchers:
