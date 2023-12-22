@@ -32,7 +32,6 @@ requests:
     matchers:
       - type: word
         words:
-          - configuration
           - database
         condition: and
 
