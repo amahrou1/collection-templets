@@ -1,8 +1,8 @@
-id: Directory Content logs
+id: Directory-Content-logs
 info:
   name: Search for log.txt
   author: Clark
-  severity: meduim
+  severity: medium
 requests:
   - method: GET
     path:
