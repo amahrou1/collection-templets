@@ -11,6 +11,8 @@ requests:
   - method: GET
     path:
       - '{{BaseURL}}/config.properties'
+      - '{{BaseURL}}/config-user.properties'
+      - '{{BaseURL}}/microprofile-config.properties'
     matchers:
       - type: word
         part: body
