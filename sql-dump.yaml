@@ -37,6 +37,9 @@ http:
       - "{{BaseURL}}/users.sql"
       - "{{BaseURL}}/wp-content/uploads/dump.sql"
       - "{{BaseURL}}/wp-content/mysql.sql"
+      - "{{BaseURL}}/test.sql"
+      - "{{BaseURL}}/test1.sql"
+      - "{{BaseURL}}/test2.sql"
     headers:
       Range: "bytes=0-3000"
 
