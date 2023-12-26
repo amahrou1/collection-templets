@@ -15,6 +15,14 @@ requests:
       - "{{BaseURL}}%2C"
       - "{{BaseURL}}%2A"
       - "{{BaseURL}}%60"
+      - "{{BaseURL}}'"
+      - "{{BaseURL}}""
+      - "{{BaseURL}}'''"
+      - "{{BaseURL}}'""
+      - "{{BaseURL}}"""
+      - "{{BaseURL}}'1'""
+      - "{{BaseURL}}%20or%201=1--"
+      - "{{BaseURL}}%20or%201=2--"
 
     matchers:
       - type: regex
